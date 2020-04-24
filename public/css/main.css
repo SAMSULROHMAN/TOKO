@@ -14966,6 +14966,24 @@ video {
   transition-delay: 1000ms;
 }
 
+.btn{
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.25rem;
+}
+
+.btn-red{
+  background-color: #f56565;
+  color: #fff;
+}
+
+.btn-red:hover {
+  background-color: #fc8181;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
@@ -72329,4 +72347,8 @@ video {
     transition-delay: 1000ms;
   }
 }
+
+
+
+
 

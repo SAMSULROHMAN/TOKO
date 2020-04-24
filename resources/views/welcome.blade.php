@@ -74,7 +74,24 @@
             <div class="content">
                 <div class="container">
                     <button class="bg-blue-400 hover:bg-blue-300 text-white font-bold py-2 px-4 rounded">Find Me</button>
+
+                    <button class="btn btn-red">Ini Cari Saya</button>
                 </div>
+                <br>
+                @alert
+                    @slot('title')
+                        Alert!!!
+                    @endslot
+                    @slot('body')
+                        Please Update Your Password
+                    @endslot
+                @endalert
+                <br>
+                @card
+                @endcard
+                <br>
+                @cardcolumn
+                @endcardcolumn
             </div>
         </div>
     </body>
