@@ -40,15 +40,6 @@
                 right: 10px;
                 top: 18px;
             }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
             .links > a {
                 color: white;
                 padding: 0 25px;
@@ -64,7 +55,7 @@
             }
         </style>
     </head>
-    <body class="bg-black text-white">
+    <body class="bg-blue-700">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -81,18 +72,8 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div class="container">
+                    <button class="bg-blue-400 hover:bg-blue-300 text-white font-bold py-2 px-4 rounded">Find Me</button>
                 </div>
             </div>
         </div>
