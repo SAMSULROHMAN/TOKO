@@ -1,0 +1,8 @@
+@tailwind base;
+
+.component{
+    @apply .bg-blue .text-white;
+}
+
+@tailwind utilities;
+
