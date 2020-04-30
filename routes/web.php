@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('beranda');
-});
+Route::get('/', 'ViewController@index');
+
+Route::get('/about', 'ViewController@about');
+
+Route::get('/produk','ViewController@produk');
 
 Auth::routes();
 

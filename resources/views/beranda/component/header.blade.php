@@ -8,7 +8,7 @@
 
           <div class="col-12 mb-3 mb-md-0 col-md-4 order-1 order-md-2 text-center">
             <div class="site-logo">
-              <a href="index.html" class="js-logo-clone">Distributor Garam</a>
+              <a href="{{ url('/') }}" class="js-logo-clone">Distributor Garam</a>
             </div>
           </div>
 
@@ -25,8 +25,8 @@
           <li class="">
             <a href="{{ url('/') }}">Home</a>
           </li>
-          <li><a href="">Produk</a></li>
-          <li><a href="">Tentang Kami</a></li>
+          <li><a href="{{ url('/produk') }}">Produk</a></li>
+          <li><a href="{{ url('/about') }}">Tentang Kami</a></li>
         </ul>
       </div>
     </nav>
