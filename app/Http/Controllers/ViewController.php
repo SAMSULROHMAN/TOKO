@@ -20,4 +20,9 @@ class ViewController extends Controller
     {
         return view('produk');
     }
+
+    public function detail()
+    {
+        return view('detail');
+    }
 }

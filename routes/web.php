@@ -17,6 +17,8 @@ Route::get('/about', 'ViewController@about');
 
 Route::get('/produk','ViewController@produk');
 
+Route::get('/produk/detail','ViewController@detail');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
