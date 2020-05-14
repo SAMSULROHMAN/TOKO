@@ -5,7 +5,5 @@
 
     @include('beranda.component.triple')
 
-    @include('beranda.component.koleksi')
-
     @include('beranda.component.feature')
 @endsection

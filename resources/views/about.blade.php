@@ -27,30 +27,48 @@
 
   </div>
 
-  <div class="container">
-    <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
+  <div class="bg-light py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mb-0">
+            <a href="{{ url('/') }}">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">About</strong></div>
       </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
+    </div>
   </div>
 
+  <div class="site-section border-bottom" data-aos="fade">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <div class="block-16">
+            <figure>
+              <img src="{{  asset('img/cv.jpg') }}" alt="Image placeholder" class="img-fluid rounded">
+            </figure>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+
+
+          <div class="site-section-heading pt-3 mb-4">
+            <h2 class="text-black">CV MUJIARTO SEJAHTERA</h2>
+          </div>
+          <p>
+            Adalah Perusahaan dalam bidang Pemasaran GARAM berbagai jenis.
+            Peruntukannya seperti Garam Konsumsi / Industri / Peternakan / Pengawetan dan lain lain.
+            Produk Kami sudah berlisensi SNI, MUI, Dan BPOM
+          </p>
+          <p>
+            Kami sebagai Distributor Marketing yang terpercaya dibawah naungan PT.BUDIONO MADURA BANGUN PERSADA. <br>
+            Pamekasan, Madura
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
   @include('beranda.component.footer')
 
   <script src="{{ asset('vendor/js/jquery-3.3.1.min.js') }}"></script>
