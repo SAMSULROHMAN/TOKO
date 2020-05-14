@@ -25,4 +25,9 @@ class ViewController extends Controller
     {
         return view('detail');
     }
+
+    public function spek()
+    {
+        return view('spek.spek');
+    }
 }
