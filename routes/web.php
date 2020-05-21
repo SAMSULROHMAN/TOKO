@@ -11,6 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'ViewController@index');
+
+Route::get('/about', 'ViewController@about');
+
+Route::get('/produk','ViewController@produk');
+
+Route::get('/produk/detail','ViewController@detail');
+
+Route::get('/produk/detail/spek','ViewController@spek');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
