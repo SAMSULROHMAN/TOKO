@@ -8,9 +8,5 @@ class Produk extends Model
 {
     protected $table = 'produk';
     protected $primaryKey = 'id_produk';
-
-    public function kategori()
-    {
-        return $this->belongsTo('App\Kategori');
-    }
+    protected $fillable = ['id_produk', 'stok_produk','nama_produk','isi_produk','foto_produk'];
 }

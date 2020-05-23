@@ -15,13 +15,11 @@ class CreateProduksTable extends Migration
     {
         Schema::create('produk', function (Blueprint $table) {
             $table->increments('id_produk');
-            $table->unsignedinteger('id_kategori');
-            $table->foreign('id_kategori')->references('id_kategori')->on('kategori');
             $table->integer('stok_produk');
             $table->string('nama_produk');
             $table->text('isi_produk');
-            $table->string('foto_produk');
-            $table->integer('harga_produk');
+            $table->string('foto_produk')->nullable();
+            $table->integer('harga_produk')->nullable();
             $table->integer('berat_produk')->nullable();
             $table->timestamps();
         });

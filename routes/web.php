@@ -21,6 +21,12 @@ Route::get('/produk/detail','ViewController@detail');
 
 Route::get('/produk/detail/spek','ViewController@spek');
 
-Auth::routes();
+Auth::routes([
+    'register' => false,
+   'reset' => false,
+   'verify' => false,
+]);
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('product', 'ProdukController');

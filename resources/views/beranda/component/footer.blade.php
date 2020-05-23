@@ -7,7 +7,7 @@
                 <ul class="list-unstyled">
                     <li class="address">Jln No 21 Mojokrapak, Tembelang, Jombang, Jawa Timur</li>
                     <li class="phone"><a href="tel://23923929210">+628783454980</a></li>
-                    <li class="email">rohmansamsul91@gmail.com</li>
+                    <li class="email">distributorgaram@gmail.com</li>
                 </ul>
                 </div>
 
