@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Produk;
 
 class ViewController extends Controller
 {
@@ -18,16 +19,19 @@ class ViewController extends Controller
 
     public function produk()
     {
-        return view('produk');
+        $products = Produk::paginate(15);
+        return view('produk', compact('products'));
     }
 
-    public function detail()
+    public function detail($id)
     {
-        return view('detail');
+        $product = Produk::findOrFail($id);
+        // dd($products);
+        return view('spek.spek', compact('product'));
     }
 
-    public function spek()
-    {
-        return view('spek.spek');
-    }
+    // public function spek()
+    // {
+    //     return view('spek.spek');
+    // }
 }

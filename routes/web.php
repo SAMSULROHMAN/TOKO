@@ -17,9 +17,8 @@ Route::get('/about', 'ViewController@about');
 
 Route::get('/produk','ViewController@produk');
 
-Route::get('/produk/detail','ViewController@detail');
+Route::get('/produk/{product}','ViewController@detail')->name('produk.detail');
 
-Route::get('/produk/detail/spek','ViewController@spek');
 
 Auth::routes([
     'register' => false,

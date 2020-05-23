@@ -14,8 +14,7 @@
                   <img src="{{ asset('img/1.jpg')}}" alt="Responsive image" class="img-fluid">
                 </figure>
                 <div class="block-4-text p-4">
-                  <h3><a href="">Tank Top</a></h3>
-                  <p class="mb-0">Finding perfect t-shirt</p>
+                  <h3><a href="">Garam Varian Kasar </a></h3>
                 </div>
               </div>
             </div>
@@ -25,7 +24,7 @@
                   <img src="{{ asset('img/2.jpg')}}" alt="Responsive image" class="img-fluid">
                 </figure>
                 <div class="block-4-text p-4">
-                  <h3><a href="#">Corater</a></h3>
+                  <h3><a href="#">Garam Konsumsi Beryodiu</a></h3>
                   <p class="mb-0">Finding perfect products</p>
                   <p class="text-primary font-weight-bold">$50</p>
                 </div>

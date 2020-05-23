@@ -5,5 +5,5 @@
 
     @include('beranda.component.triple')
 
-    @include('beranda.component.feature')
+    {{-- @include('beranda.component.feature') --}}
 @endsection

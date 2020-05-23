@@ -10,7 +10,7 @@
                 </div>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item">
-                    <a href="{{ route('produk.index') }}">Manajemen Produk</a>
+                    <a href="{{ route('product.index') }}">Manajemen Produk</a>
                   </li>
                 </ul>
               </div>

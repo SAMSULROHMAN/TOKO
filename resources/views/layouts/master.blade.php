@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="{{ asset('vendor/css/style.css') }}">
     <link rel="stylesheet" href="{{  asset('vendor/carousel.css') }}">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 
